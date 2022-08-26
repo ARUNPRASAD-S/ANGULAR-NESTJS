@@ -10,9 +10,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import{MatTableModule} from '@angular/material/table';
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { EmployeeComponent } from './employee/employee.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,
